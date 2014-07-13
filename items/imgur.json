@@ -1,0 +1,15 @@
+[
+{
+  "name" : "imgur",
+  "data" : {
+    "url"                  : "http://imgur.com",
+    "paragraph"            : "//div[@class='post']",
+    "permalink"            : "./a",
+    "subRequest"         : {
+      "paragraph"            : "//div[@class='left main-image']",
+      "caption"              : ".//h2",
+      "imageSource"          : ".//img"
+    }
+  }
+}
+]

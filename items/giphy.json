@@ -1,0 +1,15 @@
+[
+{
+  "name" : "giphy search/animal",
+  "data" : {
+    "url"                  : "http://giphy.com/search/animal",
+    "paragraph"            : "//div[@class='hoverable-gif']",
+    "permalink"            : ".//a",
+    "subRequest"         : {
+      "paragraph"            : "id('gif-wrap')",
+      "caption"              : ".//figcaption",
+      "imageSource"          : ".//img"
+    }
+  }
+}
+]
